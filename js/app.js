@@ -6,6 +6,10 @@ var songTwo = new Song("Song Two", "Artist Two", "3:30");
 playlist.add(songOne);
 playlist.add(songTwo);
 
+var manOfSteel = new Movie('Man of Steel', '2013', '2:23:00');
+
+playlist.add(manOfSteel);
+
 var playlistElement = document.getElementById("playlist");
 
 playlist.renderInElement(playlistElement);
